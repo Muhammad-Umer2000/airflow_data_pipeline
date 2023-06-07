@@ -21,7 +21,7 @@ default_args = {
     'retry_delay': timedelta(seconds=20)
 }
 
-BUCKET = "airflow-snowflake-data-pipeline"
+BUCKET = "scrapy123"
 
 @dag(default_args=default_args, catchup=False)
 def data_crawler_dag():
